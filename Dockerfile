@@ -40,6 +40,7 @@ RUN apt-get update \
   && apt-get install -y --no-install-recommends \
     ca-certificates=20190110 \
     git=1:2.20.1-2+deb10u3 \
+    jq \
     python3=${PYTHON_MAJOR_VERSION}.3-1 \
     python3-distutils=${PYTHON_MAJOR_VERSION}.3-1 \
   && apt-get clean \
